@@ -4,3 +4,4 @@ case "$opcja" in
     "--date") date;;
     "--logs") logs;;
     "--help") help;;
+esac
