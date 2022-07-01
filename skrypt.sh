@@ -17,6 +17,12 @@ logs ()
     done
 }
 
+init ()
+{
+    git clone https://github.com/dabowski/ProjektNaKoniec
+    PATH="$PATH:${pwd}/ProjektNaKoniec"
+}
+
 help ()
 {
     echo "--date | -d - wyświetla dzisiejszą datę i godzinę"
