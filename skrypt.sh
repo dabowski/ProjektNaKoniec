@@ -27,8 +27,8 @@ help ()
 {
     echo "--date | -d - wyświetla dzisiejszą datę i godzinę"
     echo "--logs | -l - tworzy 100 plików logx.txt (x to liczba od 1 do 100)"
-    echo "--error | -e - tworzy 100 plików errorx.txt (x to liczba od 1 do 100)"
     echo "--logs n | -l n- tworzy n plików logx.txt (x to liczba od 1 do n)"
+    echo "--error | -e - tworzy 100 plików errorx.txt (x to liczba od 1 do 100)"
     echo "--error n | -e n- tworzy n plików errorx.txt (x to liczba od 1 do n)"
     echo "--help | -h - wyświetla opcje"
 }
