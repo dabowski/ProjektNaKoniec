@@ -19,10 +19,10 @@ logs ()
 
 help ()
 {
-    echo "--date - wyświetla dzisiejszą datę i godzinę"
-    echo "--logs - tworzy 100 plików logx.txt (x to liczba od 1 do 100)"
-    echo "--logs n - tworzy n plików logx.txt (x to liczba od 1 do n)"
-    echo "--help - wyświetla opcje"
+    echo "--date | -d - wyświetla dzisiejszą datę i godzinę"
+    echo "--logs | -l - tworzy 100 plików logx.txt (x to liczba od 1 do 100)"
+    echo "--logs n | -l n- tworzy n plików logx.txt (x to liczba od 1 do n)"
+    echo "--help | -h - wyświetla opcje"
 }
 
 case "$opcja" in
