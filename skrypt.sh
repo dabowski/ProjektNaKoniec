@@ -3,7 +3,13 @@ nazwa=$0
 
 logs ()
 {
-    i=100
+    if [ -z $1 ]
+    then
+        i=100
+    else
+        i=$1
+    fi
+
     while [ $i -gt "0" ] 
     do
         echo "log$i.txt, $nazwa, $(date)" >> log$i.txt
@@ -13,6 +19,6 @@ logs ()
 
 case "$opcja" in
     "--date") date;;
-    "--logs") logs;;
+    "--logs") logs $2;;
     "--help") help;;
 esac
