@@ -26,7 +26,7 @@ help ()
 }
 
 case "$opcja" in
-    "--date") date;;
-    "--logs") logs $2;;
-    "--help") help;;
+    "--date" | "-d") date;;
+    "--logs" | "-l") logs $2;;
+    "--help" | "-h") help;;
 esac
