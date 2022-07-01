@@ -17,6 +17,14 @@ logs ()
     done
 }
 
+help ()
+{
+    echo "--date - wyświetla dzisiejszą datę i godzinę"
+    echo "--logs - tworzy 100 plików logx.txt (x to liczba od 1 do 100)"
+    echo "--logs n - tworzy n plików logx.txt (x to liczba od 1 do n)"
+    echo "--help - wyświetla opcje"
+}
+
 case "$opcja" in
     "--date") date;;
     "--logs") logs $2;;
